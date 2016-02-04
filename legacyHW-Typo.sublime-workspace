@@ -515,6 +515,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "features/step_definitions/web_steps.rb",
+			"settings":
+			{
+				"buffer_size": 7872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "features/support/selectors.rb",
+			"settings":
+			{
+				"buffer_size": 1061,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "features/support/paths.rb",
+			"settings":
+			{
+				"buffer_size": 1136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/controllers/admin/categories_controller_spec.rb",
+			"settings":
+			{
+				"buffer_size": 2014,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/articles_controller.rb",
+			"settings":
+			{
+				"buffer_size": 8966,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -523,10 +563,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 54.0,
+		"last_filter": "addd",
 		"selected_items":
 		[
+			[
+				"addd",
+				"Project: Add Folder"
+			],
 			[
 				"addfl",
 				"Project: Add Folder"
@@ -627,8 +671,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/jetpackpony/projects/esaas2/typo"
+	],
 	"file_history":
 	[
+		"/home/jetpackpony/projects/esaas2/typo/pass",
+		"/home/jetpackpony/projects/esaas2/typo/result_to_submit",
+		"/home/jetpackpony/projects/esaas2/typo/features/create_category.feature",
+		"/home/jetpackpony/projects/esaas2/typo/app/controllers/admin/categories_controller.rb",
+		"/home/jetpackpony/projects/esaas2/typo/app/views/shared/_atom_header.atom.builder",
+		"/home/jetpackpony/projects/esaas2/typo/app/views/admin/categories/new.html.erb",
+		"/home/jetpackpony/projects/esaas2/typo/app/models/category.rb",
+		"/home/jetpackpony/projects/esaas2/typo/spec/models/category_spec.rb",
+		"/home/jetpackpony/projects/esaas2/typo/spec/controllers/admin/categories_controller_spec.rb",
+		"/home/jetpackpony/projects/esaas2/typo/spec/controllers/categories_controller_spec.rb",
+		"/home/jetpackpony/projects/esaas2/typo/features/write_article.feature",
 		"/home/jetpackpony/projects/work/cashbox/java/rc/rc/src/main/java/com/petrosoftinc/autotests/core/ui/screens/update/UpdatePage.java",
 		"/home/jetpackpony/projects/work/cashbox/java/rc/rc/src/main/java/com/petrosoftinc/autotests/core/test/TestSuite.java",
 		"/home/jetpackpony/projects/work/cashbox/tools/ssh_to_prod.sh",
@@ -745,18 +804,7 @@
 		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1449043017706.xml",
 		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448963877683.xml",
 		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448963877605.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448963877660.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448963877707.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448963877728.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448962661335.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448962661284.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448962661363.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448962661406.xml",
-		"/home/jetpackpony/projects/ESaaS/hw-bdd-tdd-cycle/rottenpotatoes/Gemfile",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448880789632.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448876428448.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448875826147.xml",
-		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448875826178.xml"
+		"/home/jetpackpony/projects/work/cashbox/java/POSPro/PJRBox/xml/PJR1448963877660.xml"
 	],
 	"find":
 	{
@@ -767,6 +815,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/jetpackpony/projects/esaas2/typo/features",
 			"/home/jetpackpony/projects/work/cashbox/java/auto-tests, *.java, *.properties",
 			"/home/jetpackpony/projects/work/cashbox/java/auto-tests, *.java",
 			"/home/jetpackpony/projects/work/cashbox/java/auto-tests, *.properties",
@@ -783,6 +832,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"click_link",
+			"follow",
+			"path_to",
+			"content",
+			"path_to",
+			"article__body_and_extended_editor",
+			"article_title",
 			"DaiM0ohW",
 			"root",
 			"pressUpdateButtonNo",
@@ -903,14 +959,7 @@
 			"testPinPadIpNotAllowedValues",
 			"testPinPadIpAllowedValues",
 			"test3TimeRestrictionItemRestrictedWithoutReminder",
-			"test1TimeRestrictionReminderMessage",
-			"testAddNewGameWithUpcOfExistingGameWithSales",
-			"testDepartmentWithItemsDeletion",
-			"testSerialAddedToLotteryInventory",
-			"testAllowOnNegativeTransactionsFalse",
-			"testFeeAddedInSaleAndClearedAfterTransactionFinished",
-			"com.petrosoftinc.autotests.tests.",
-			"assertPopUpMessage"
+			"test1TimeRestrictionReminderMessage"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -931,8 +980,159 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "features/step_definitions/web_steps.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2431,
+								2431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "features/support/selectors.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "features/support/paths.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								552,
+								552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "spec/controllers/admin/categories_controller_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/articles_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 578.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -993,8 +1193,76 @@
 		"selected_items":
 		[
 			[
+				"support/",
+				"features/support/selectors.rb"
+			],
+			[
+				"controllers/",
+				"app/controllers/articles_controller.rb"
+			],
+			[
 				"pass",
-				"tools/pass"
+				"pass"
+			],
+			[
+				"path_to",
+				"app/views/shared/_atom_header.atom.builder"
+			],
+			[
+				"stepdefi",
+				"features/step_definitions/web_steps.rb"
+			],
+			[
+				"feature",
+				"features/create_category.feature"
+			],
+			[
+				"categoriescontroller",
+				"app/controllers/admin/categories_controller.rb"
+			],
+			[
+				"webste",
+				"features/step_definitions/web_steps.rb"
+			],
+			[
+				"spec/categories",
+				"spec/controllers/admin/categories_controller_spec.rb"
+			],
+			[
+				"views/categories/",
+				"app/views/admin/categories/new.html.erb"
+			],
+			[
+				"model/categor",
+				"app/models/category.rb"
+			],
+			[
+				"views/catego/new",
+				"app/views/admin/categories/new.html.erb"
+			],
+			[
+				"controllers/categori",
+				"app/controllers/admin/categories_controller.rb"
+			],
+			[
+				"spec/controllers/categor",
+				"spec/controllers/categories_controller_spec.rb"
+			],
+			[
+				"spec/controllers/cate",
+				"spec/controllers/admin/categories_controller_spec.rb"
+			],
+			[
+				"spec/models/",
+				"spec/models/category_spec.rb"
+			],
+			[
+				"features/",
+				"features/write_article.feature"
+			],
+			[
+				"pas",
+				"pass"
 			],
 			[
 				"sstopro",
@@ -1435,74 +1703,6 @@
 			[
 				"logrepo",
 				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/journal/log/LogReportsTestCase.java"
-			],
-			[
-				"cal",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/settings/CalculateTaxTestCase.java"
-			],
-			[
-				"dropdo",
-				"auto-tests/src/main/java/com/petrosoftinc/autotests/core/ui/controls/DropDownMenu.java"
-			],
-			[
-				"saletestcase",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/settings/SalesDataExportTestCase.java"
-			],
-			[
-				"lottesale",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/pricebook/LotterySaleTestCase.java"
-			],
-			[
-				"qso",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/cashier/cash/QSOrderTestCase.java"
-			],
-			[
-				"sellitemteca",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/cashier/cash/SellItemTestCase.java"
-			],
-			[
-				"mopspa",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/pricebook/MopsPanelTestCase.java"
-			],
-			[
-				"loyaltyte",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/cashier/cash/LoyaltyTestCase.java"
-			],
-			[
-				"configjava",
-				"auto-tests/src/main/java/com/petrosoftinc/autotests/core/util/Config.java"
-			],
-			[
-				"confjava",
-				"auto-tests/src/main/java/com/petrosoftinc/autotests/core/util/Config.java"
-			],
-			[
-				"archiveday",
-				"auto-tests/src/test/java/com/petrosoftinc/autotests/tests/reports/ArchiveDayReportsTestCase.java"
-			],
-			[
-				"create",
-				"auto-tests/Creating of autotest"
-			],
-			[
-				"install",
-				"tools/install_fresh_copy.sh"
-			],
-			[
-				"crea",
-				"auto-tests/Creating of autotest"
-			],
-			[
-				"seleitembutt",
-				"auto-tests/src/main/java/com/petrosoftinc/autotests/core/ui/controls/buttons/SelectedItemButton.java"
-			],
-			[
-				"seleitemlist",
-				"auto-tests/src/main/java/com/petrosoftinc/autotests/core/ui/controls/lists/SelectedItemsList.java"
-			],
-			[
-				"griditembu",
-				"auto-tests/src/main/java/com/petrosoftinc/autotests/core/ui/controls/buttons/GridItemButton.java"
 			]
 		],
 		"width": 0.0
@@ -1515,7 +1715,7 @@
 		[
 			[
 				"",
-				"~/projects/work/cashbox/selenium/selenium-cashbox.sublime-project"
+				"~/projects/ponypod/ponypod.sublime-project"
 			],
 			[
 				"ess",
