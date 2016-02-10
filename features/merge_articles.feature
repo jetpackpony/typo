@@ -15,17 +15,17 @@ Feature: Merge Articles
     | Comment 2 | user2  | Is a mediocre article | Article 2     |  
 
 	Scenario: Merge articles field shown
-		Given I am logged in as administrator
+		Given I am logged into the admin panel
 		When I go to the edit "Article 1" page
 		Then I should see the merge articles field
 
 	Scenario: Merge articles field not shown when not admin
-		Given I am logged in as not administrator
+		Given I am logged in as not admin
 		When I go to the edit "Article 1" page
 		Then I should not see the merge articles field
 
 	Scenario: Merge articles field not shown when creating new article
-		Given I am logged in as administrator
+		Given I am logged into the admin panel
 		When I go to the new article page
 		Then I should not see the merge articles field
 

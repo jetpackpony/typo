@@ -21,6 +21,11 @@ module NavigationHelpers
       '/admin/categories/new'
     when /^the categories page$/
       '/admin/categories/new'
+    when /^the login page$/
+      '/admin/login'
+    when /^the edit "([^\"]+)" page$/
+      article = Article.find_by_title $1
+      '/admin/content/edit/' + article.id.to_s
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
